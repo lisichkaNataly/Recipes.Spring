@@ -13,8 +13,8 @@ public class FirstController {
     }
 
     @GetMapping("/info")
-    public String info(@RequestParam String name, String nameProject, String date, String description) {
-        return "Информация о проекте: Имя ученика: " + name
-                + " название проекта: " + nameProject + " дата создания: " + date + " описание проекта: " + description;
+    public String info() {
+        return "Ученик - Наталья. Проект 'ПП-просто полезно'. Проект создан 12.12.2022." +
+                " Проект: о вкусном, простом, полезном. Здесь простые, вкусные,полезные и интересные рецепты домашней кухни.";
     }
 }

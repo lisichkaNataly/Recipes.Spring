@@ -8,13 +8,6 @@ public class RecipesSpringApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(RecipesSpringApplication.class, args);
-
-        String nameProject = "Рецепты";
-        String functionProject = "Собирать рецепты";
-        String technologyProject = "Веб-технология";
-        String languageProject = "Русский язык";
-
-
     }
 
 }
